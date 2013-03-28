@@ -1,6 +1,7 @@
-package es.weso.wirouter;
+package es.weso.wirouter.country;
 
-public class NamedRegion extends ComparableItem {
+
+public class NamedRegion extends CountryExpr {
 	private final String name;
 	
 	public NamedRegion(String name) {
